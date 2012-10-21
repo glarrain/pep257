@@ -372,8 +372,8 @@ def parse_options(custom_args=None):
 
 
 def main(options, arguments):
-    print('=' * 80)
-    print('Note: checks are relaxed for scripts (with #!) compared to modules')
+#    print('=' * 80)
+#    print('Note: checks are relaxed for scripts (with #!) compared to modules')
     Error.explain = options.explain
     Error.range = options.range
     Error.quote = options.quote
